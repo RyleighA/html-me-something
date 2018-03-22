@@ -1,0 +1,33 @@
+body {
+	padding-bottom: auto;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+header {
+	background-color: purple;
+	text-align: center;
+}
+
+.navbar {
+	background-color: black;
+}
+
+.navbar a {
+	color: white;
+	text-align: center;
+	padding-top: auto;
+	padding-bottom: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 17px;
+}
+
+.navbar a:hover {
+	background-color: white;
+	color: blue;
+}
+
+.navbar a.active {
+	background-color: white;
+	color: blue;
+}
