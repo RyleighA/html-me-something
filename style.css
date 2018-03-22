@@ -1,11 +1,48 @@
 body {
-	padding-bottom: auto;
-	padding-left: 200px;
-	padding-right: 200px;
+	background-image: url(images/background.png);
+	background-color: purple;
 }
 header {
 	background-color: purple;
 	text-align: center;
+}
+
+footer {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 18px;
+	background-color: #d490e5;
+}
+
+article {
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+article img {
+	width: 800px;
+	height: auto;
+}
+
+article p {
+	font-size: 18px;
+}
+
+#headerimg {
+	width: auto;
+	height: 250px;
+}
+
+.color {
+	background-color: #F8F7F8;
+}
+
+.wrapper {
+	padding-top: auto;
+	padding-bottom: auto;
+	padding-left: 200px;
+	padding-right: 200px;
 }
 
 .navbar {
@@ -13,7 +50,7 @@ header {
 }
 
 .navbar a {
-	color: white;
+	color: #d490e5;
 	text-align: center;
 	padding-top: auto;
 	padding-bottom: auto;
@@ -23,11 +60,11 @@ header {
 }
 
 .navbar a:hover {
-	background-color: white;
-	color: blue;
+	background-color: #d490e5;
+	color: purple;
 }
 
 .navbar a.active {
-	background-color: white;
-	color: blue;
+	background-color: #d490e5;
+	color: purple;
 }
